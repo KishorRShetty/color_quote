@@ -16,7 +16,7 @@ const Color = (props) => {
   return (
     <>
       <br />
-      <ColorPicker onChange={setColor} color={color} allowAlpha />
+      <ColorPicker onChange={setColor} color={color} allowAlpha={true} />
       <br />
       {/* <span>
         color:{" "}
