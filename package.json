@@ -6,7 +6,9 @@
   "scripts": {
     "test": "'",
     "start": "node backend/server.js",
-    "heroku-postbuild":"npm install --prefix color_quote && npm run build --prefix color_quote"
+    "heroku-postbuild": "npm install --prefix color_quote && npm run build --prefix color_quote",
+    "prestart": "npm install --prefix color_quote && npm run build --prefix color_quote",
+    "prebuild": "npm install --prefix color_quote && npm run build --prefix color_quote"
   },
   "repository": {
     "type": "git",
@@ -19,13 +21,11 @@
   },
   "homepage": "https://bitbucket.org/bahejav/app_attic#readme",
   "dependencies": {
+    "canvas": "^2.11.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "mongoose": "^6.2.7",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.12.3",
     "text-to-image": "^5.2.0"
-  },
-  "engines": {
-    "node": "16.x"
   }
 }
