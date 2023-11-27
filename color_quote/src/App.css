@@ -15,6 +15,9 @@
   /* .Polaris-TextField textarea {
     max-height: 10rem !important;
 } */
+.Polaris-TextField__Input {
+    max-height: 10rem;
+}
   
   @media (max-width: 576px) {
       .Polaris-ColorPicker {
@@ -23,4 +26,7 @@
       /* .Polaris-TextField textarea {
         max-height: 6rem !important;
     } */
+    .Polaris-TextField__Input {
+        max-height: 6rem;
+    }
     }
