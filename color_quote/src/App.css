@@ -1,3 +1,26 @@
-.App{
+.App {
     margin: 10px;
-}
+    max-height: 80vh;
+    max-width: 90vw;
+  }
+  
+  .input_color {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  #PolarisTextField2 {
+      height: 10rem !important;
+  }
+  
+  @media (max-width: 576px) {
+      .Polaris-ColorPicker {
+          --pc-color-picker-size: 6rem;
+      }
+      #PolarisTextField2 {
+          height: 6rem !important;
+      }
+    }

@@ -17,9 +17,9 @@ const Input = (props) => {
       <br />
       <br />
       <TextField
-        label="Your Quote"
         value={value}
         onChange={handleChange}
+        multiline={3}
         autoComplete="off"
       />
       <br />
