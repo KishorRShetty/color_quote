@@ -12,15 +12,15 @@
     /* flex-wrap: wrap; */
   }
   
-  .Polaris-TextField textarea {
-    max-height: 10rem;
-}
+  /* .Polaris-TextField textarea {
+    max-height: 10rem !important;
+} */
   
   @media (max-width: 576px) {
       .Polaris-ColorPicker {
           --pc-color-picker-size: 6rem;
       }
-      .Polaris-TextField textarea {
-        max-height: 6rem;
-    }
+      /* .Polaris-TextField textarea {
+        max-height: 6rem !important;
+    } */
     }
