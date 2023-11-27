@@ -41,7 +41,7 @@ const Png = ({ color, input }) => {
         >
           {input}
         </span> */}
-        <img src={imageData} alt="pic"/>
+        <img className="output_image" src={imageData} alt="pic"/>
       </div>
     </>
   );

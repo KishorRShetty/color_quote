@@ -10,3 +10,8 @@
     align-items: center;
     font-size: 5rem;
 }
+
+.output_image{
+height: 100%;
+width: 100%;
+}
